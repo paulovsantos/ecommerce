@@ -1,0 +1,18 @@
+{% load static %}
+<nav class="navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{% url 'home' %}">Ecommerce</a>
+        <form class="d-flex mx-auto" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                style="width: 500px;">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="d-flex align-items-center position-relative">
+            <a href="#" class="ms-auto position-relative" style="text-decoration: none;">
+                <i class="bi bi-cart2" style="font-size: 24px;"></i>
+
+                <span class="amount">0</span>
+            </a>
+        </div>
+    </div>
+</nav>

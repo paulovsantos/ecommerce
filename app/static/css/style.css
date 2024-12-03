@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #FFE600;
+}
+
+.navbar-brand {
+    color: #9B8C00;
+}
+
+.amount {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 14px;
+    color: red;
+}
+
+/* 
+.position-absolute {
+    font-size: 1.2rem; 
+    top: -5px;  
+    left: 12px; 
+    color: red; 
+}
+
+.ms-auto {
+    margin-left: auto;  
+}
+
+.bi-cart2 {
+    font-size: 1.5rem; 
+}
+
+ */
